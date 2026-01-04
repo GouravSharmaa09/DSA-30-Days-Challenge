@@ -1,7 +1,7 @@
-#  ARMSTRONG NUMBER LOGIC PROBLEM 
+                                                         # ARMSTRONG NUMBER LOGIC PROBLEM 
 # PROBLEM 1 
 # digit count and sum ka logic 
-#  using floor division or reminder logic  we calcualte length or sum or input
+# using floor division or reminder logic  we calcualte length or sum or input
 
 n = 5432
 num = n 
@@ -33,3 +33,16 @@ if total ==number :
         print ("vaild cube" ,total)
 elif total != num_og:
         print("not a vaild cube" ,total)
+
+
+
+
+#problem - 3 Square + Addition Armstrong 
+n= 123
+num = n 
+total = 0
+while num > 0:
+  last_digit = num%10
+  total= total+(last_digit*last_digit)
+  num = num//10   
+print(total)      
