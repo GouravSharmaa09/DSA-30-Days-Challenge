@@ -123,6 +123,22 @@ gourav(0,1,5)
 def gourav (n):
      if n == 1:
         return 1
+        #  ye base condintion hai ki n == 1 ho to retrun 1 krdo kyuki ki 1 ka 1 hi hota hai 
      return n+gourav(n-1)
-print(gourav(5))     
+    #   logic formulla hai  n (10) + fun(10-1)=9 hi hota hai 9 ka fun bhi add of 8 ka fun ho    ga 
+
+print(gourav(5))   
+
+
+
+# Problem 7-  Factorial of n (product of n)
+# Factorial nikalne ka code  using Functional Recursion.Logic: 5! = 5 \times 4 \times 3 \times 2 \times 1
+# output = 120
+
+def gourav(n):
+    if n==1:
+        return 1
+        
+    return n *gourav(n-1)
+print(gourav(5))    
 
