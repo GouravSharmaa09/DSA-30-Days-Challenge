@@ -1,4 +1,4 @@
-# Day-11   Problem - Find the largest number in the array
+# Day-10   Problem - Find the largest number in the array
 # TIME_COPLEXCITY= O(N)
 
 num= [2,5,3,1,6,5,7,8,9,0]

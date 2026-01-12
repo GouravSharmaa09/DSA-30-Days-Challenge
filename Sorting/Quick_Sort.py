@@ -1,4 +1,4 @@
-# Day11-  QUICK SORT (PARTITION AND CONQUER)  
+# Day10-  QUICK SORT (PARTITION AND CONQUER)  
 # TIME COMPLEXCITY = O(nlog2n) -- Best and Avg case 
 # Wrost case -- O(n2)
 # output= [10, 11, 20, 23, 34, 55, 99]
